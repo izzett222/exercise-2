@@ -179,10 +179,10 @@
 }
 @media (min-width: 1024px) {
   .banner__logo {
-    position: fixed;
+    position: absolute;
     width: 250px;
     height: 250px;
-    top: 0;
+    top: -64px;
   }
   .banner__header-list {
     display: flex;
