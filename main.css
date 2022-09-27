@@ -315,7 +315,7 @@
 @media (min-width: 1024px) {
   .reports__item {
     flex-direction: row;
-    max-width: 1024px;
+    max-width: 1240px;
   }
 }
 .reports__header {
