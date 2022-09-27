@@ -399,12 +399,38 @@
 }
 .footer__link--first {
     display: block;
+    font-weight: bold;
+    font-size: 18pxs;
 }
 
-
+.footer__last {
+    padding: 30px 0;
+}
 
 @media (min-width: 600px) {
   .footer__first {
     flex-direction: row;
+  }
+  .footer__second {
+    flex-direction: row;
+    min-width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+
+  }
+  .footer__link {
+    display: block;
+    
+    padding
   }
 }
