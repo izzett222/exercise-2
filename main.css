@@ -7,8 +7,8 @@
 
 
 .section {
-    padding-right: 8px;
-    padding-left: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
     max-width: 1240px;
     margin-right: auto;
     margin-left: auto;
@@ -363,4 +363,51 @@
 
 .footer {
     background-color: #3a3e41;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footer__first {
+    display: flex;
+    padding: 60px 0 20px;
+    flex-direction: column;
+    border-bottom: 2px solid #c30a17;
+}
+.footer__details {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.footer__icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.footer__socials {
+    flex: 1;
+}
+.footer__details {
+    flex: 3
+}
+.footer__social-header {
+    text-align: center;
+}
+.footer__socials {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.footer__icons {
+    justify-content: center;
+}
+.icon {
+    padding: 2px;
+    padding-bottom: 1px;
+    background-color: #626669;
+}
+@media (min-width: 600px) {
+    .footer__first {
+        flex-direction: row;
+    }
 }
