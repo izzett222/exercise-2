@@ -165,7 +165,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: calc(100% - 32px);
   max-width: 1240px;
   display: flex;
   align-items: center;
